@@ -1,10 +1,6 @@
 {% extends "register/header.html" %}
-
 {% block content %}
-{% if form.errors %}
-    <p><strong>something went wrong</strong></p>
-{% endif %}
-
+<h2>let upload someone pics</h2> <br>
 <form class="form-horizontal" action="" method="post">
     {% csrf_token %}
     {% for field in form %}
@@ -22,7 +18,7 @@
 
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-success">Register</button>
+            <button type="submit" class="btn btn-success">submit</button>
         </div>
     </div>
 
