@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'register',
+    'map',
     'upload',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -68,6 +69,8 @@ TEMPLATES = [
         },
     },
 ]
+
+AUTH_USER_MODEL = 'register.Account' # new
 
 WSGI_APPLICATION = 'onboarding.wsgi.application'
 
@@ -120,3 +123,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'reshimwe2025@gmail.com'
+EMAIL_HOST_PASSWORD = 'soniau123'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False

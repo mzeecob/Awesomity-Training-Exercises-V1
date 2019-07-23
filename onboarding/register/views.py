@@ -1,16 +1,39 @@
+from django.conf import settings
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
 from django.views.generic import View
-from .forms import UserForm
+from .forms import *
+from django.core.mail import send_mail
 
 
 def index(request):
     return render(request, 'register/home.html')
 
 
-def user_login(request):
-    return render(request, 'register/login.html')
+class LoginFormView(View):
+    form_class = LoginForm
+    template_name = 'register/login.html'
+
+    # a blank form for new user to a website
+    def get(self, request):
+        form = self.form_class(None)
+        return render(request, self.template_name, {'form': form})
+
+    # process form data
+    def post(self, request):
+        form = self.form_class(None)
+        form.save(commit=False)  # save it on local variable
+
+        if form:
+            return redirect('http://127.0.0.1:8000/home.html')
+
+
+        # else is to try again
+        return render(request, self.template_name, {'form': form})
+
+
+
 
 
 class UserFormView(View):
@@ -30,20 +53,32 @@ class UserFormView(View):
             user = form.save(commit=False)  # save it on local variable
 
             # clean (normalized) data
-            username = form.cleaned_data['username']
             password = form.cleaned_data['password']
-            user.set_password(password)  # change password
+            email = form.cleaned_data['Email']
+            user.set_password(password)
             user.save()
 
             # returns user object if the credentials are correct
 
-            user = authenticate(username=username, password=password)
+            user = authenticate(Email=email, password=password)
+
+            subject = 'Congratulation'
+            to_email = [email]
+            register_message = 'You are now one of us.'
+
+            send_mail(
+                subject=subject,
+                from_email=settings.EMAIL_HOST_USER,
+                recipient_list=to_email,
+                message=register_message,
+                fail_silently=False,
+            )
 
             if user is not None:
                 if user.is_active:
                     messages.success(request, 'Congratulation, Account created')
                     login(request, user)
-                    return redirect('http://127.0.0.1:8000/admin')
+                    return redirect('http://127.0.0.1:8000')
 
         # else is to try again
         return render(request, self.template_name, {'form': form})

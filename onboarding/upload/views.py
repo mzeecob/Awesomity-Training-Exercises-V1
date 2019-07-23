@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.views.generic import View
 from .forms import ImageForm
+from django.contrib import messages
 
 
 class UserFormView(View):
@@ -18,5 +19,7 @@ class UserFormView(View):
 
         if form.is_valid():
             form.save()
+            messages.success(request, 'Upload Done')
+            return redirect('http://127.0.0.1:8000/upload')
         # else is to try again
         return render(request, self.template_name, {'form': form})

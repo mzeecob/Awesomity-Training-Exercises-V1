@@ -1,5 +1,10 @@
 {% extends "register/header.html" %}
 {% block content %}
+{% if messages %}
+    {% for message in messages %}
+    <li class="text-success" {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+{% endif %}
 <h2>let upload someone pics</h2> <br>
 <form class="form-horizontal" action="" method="post">
     {% csrf_token %}

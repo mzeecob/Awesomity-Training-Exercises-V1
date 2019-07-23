@@ -1,5 +1,39 @@
-{% extends "register/header.html" %}
+<head>
+	<title>Regis Ishimwe</title>
+	<meta charset="utf-8" />
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'register/css/bootstrap.min.css' %}" type = "text/css"/>
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
 
+	<style type="text/css">
+		html,
+		body {
+		  height:10%
+		}
+	</style>
+</head>
+
+<body class="body" style="background-color:#f6f6f6">
+	<div class="container-fluid" style="min-height:95%; ">
+		<div class="row">
+			  <div class="col-sm-2">
+				  <br>
+				  <center>
+					<img src="{% static 'register/img/profile.jpg' %}" class="responsive-img" style='max-height:100px;' alt="face">
+				  </center>
+			  </div>
+			  <div class="col-sm-10">
+				  <br>
+				  <center>
+				  <h1>Shaft</h1>
+				  </center>
+			  </div>
+		</div><hr>
+	</div>
+
+</body>
+
+<center>
 {% block content %}
 {% if form.errors %}
     <p><strong>something went wrong</strong></p>
@@ -25,7 +59,8 @@
             <button type="submit" class="btn btn-success">Register</button>
         </div>
     </div>
-
+<p>To login <a href="login.html"> Click Here</a> </p>
 
 </form>
 {% endblock %}
+    </center>
