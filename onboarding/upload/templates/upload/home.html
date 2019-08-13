@@ -1,4 +1,4 @@
-{% extends "register/header.html" %}
+{% extends "accounts/header.html" %}
 {% block content %}
 {% if messages %}
     {% for message in messages %}
@@ -6,7 +6,7 @@
     {% endfor %}
 {% endif %}
 <h2>let upload someone pics</h2> <br>
-<form class="form-horizontal" action="" method="post">
+<form class="form-horizontal"  enctype="multipart/form-data" method="post">
     {% csrf_token %}
     {% for field in form %}
         <div class="form-group">
@@ -14,12 +14,13 @@
                 <span class="text-danger small">{{field.errors}}</span>
             </div>
             <label class="control-label col-sm-2">{{ field.label_tag }}</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10" id="info">
                 {{field}}
             </div>
 
         </div>
     {% endfor %}
+
 
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">

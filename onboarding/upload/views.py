@@ -1,4 +1,4 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
 from django.views.generic import View
 from .forms import ImageForm
 from django.contrib import messages
@@ -15,7 +15,7 @@ class UserFormView(View):
 
     # process from data
     def post(self, request):
-        form = self.form_class(request.POST,)
+        form = self.form_class(request.POST, request.FILES)
 
         if form.is_valid():
             form.save()

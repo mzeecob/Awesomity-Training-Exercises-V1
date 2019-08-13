@@ -2,75 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5c66fe-c5c3-4d96-b507-ed0efa657498" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/map/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/css/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/jquery/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/jquery/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/static/map/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/templates/map/distance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/Images/Images/180675.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/Images/Images/awsome_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/Images/Images/data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/Images/Images/programming_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/Images/Images/programming_2_yhg6snt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/.idea/django-google-maps-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/MANIFEST.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/README_kr.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/static/register/css/map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/_gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/_travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/static/register/js/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/static/django_google_maps/css/google-maps-admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/static/django_google_maps/js/google-maps-admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/templates/django_google_maps/widgets/map_widget.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/tests/test_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/tests/test_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/tests/test_geolocation_field.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/tests/test_geopt_field.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/tests/test_typename.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/tests/test_widget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/django_google_maps/widgets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/requirements/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/requirements/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/templates/sample/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/sample_db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-google-maps-master/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/templates/sample/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/sample/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/templates/map/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/map/templates/map/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onboarding/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onboarding/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onboarding/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register/Includes/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/migrations/0002_auto_20190719_1511.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/css/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/img/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/img/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/static/register/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/register/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/templates/register/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/templates/register/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/templates/register/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/templates/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload/templates/upload/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/upload/templates/upload/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload/views.py" afterDir="false" />
@@ -100,81 +117,92 @@
     </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/forms.py">
+        <entry file="file://$PROJECT_DIR$/map/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/templates/upload/home.html">
+        <entry file="file://$PROJECT_DIR$/map/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/views.py">
+        <entry file="file://$PROJECT_DIR$/map/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="102">
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/map/templates/map/home.html">
+        <entry file="file://$PROJECT_DIR$/map/static/map/js/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/urls.py">
+        <entry file="file://$PROJECT_DIR$/map/templates/map/distance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="317">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onboarding/settings.py">
+        <entry file="file://$PROJECT_DIR$/map/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="589">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>valid</find>
+      <find>position</find>
+      <find>map_</find>
+      <find>from</find>
+      <find>calcu</find>
+      <find>fromPoint</find>
+      <find>toPoint</find>
+      <find>console</find>
+      <find>form</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -182,21 +210,41 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/onboarding/settings.py" />
-        <option value="$PROJECT_DIR$/register/templates/register/header.html" />
         <option value="$PROJECT_DIR$/onboarding/urls.py" />
-        <option value="$PROJECT_DIR$/upload/templates/upload/home.html" />
-        <option value="$PROJECT_DIR$/upload/urls.py" />
-        <option value="$PROJECT_DIR$/upload/views.py" />
-        <option value="$PROJECT_DIR$/upload/forms.py" />
+        <option value="$PROJECT_DIR$/onboarding/settings.py" />
         <option value="$PROJECT_DIR$/upload/models.py" />
+        <option value="$PROJECT_DIR$/upload/views.py" />
+        <option value="$PROJECT_DIR$/register/templates/register/login.html" />
+        <option value="$PROJECT_DIR$/register/templates/register/header.html" />
+        <option value="$PROJECT_DIR$/register/models.py" />
+        <option value="$PROJECT_DIR$/register/forms.py" />
         <option value="$PROJECT_DIR$/register/views.py" />
+        <option value="$PROJECT_DIR$/register/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/login.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/register.html" />
+        <option value="$PROJECT_DIR$/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/accounts/static/register/js/map.js" />
+        <option value="$PROJECT_DIR$/map/static/map/css/map.css" />
+        <option value="$PROJECT_DIR$/upload/forms.py" />
+        <option value="$PROJECT_DIR$/upload/urls.py" />
+        <option value="$PROJECT_DIR$/upload/templates/upload/home.html" />
+        <option value="$PROJECT_DIR$/map/forms.py" />
+        <option value="$PROJECT_DIR$/map/admin.py" />
+        <option value="$PROJECT_DIR$/map/models.py" />
+        <option value="$PROJECT_DIR$/map/templates/map/Distance.html" />
+        <option value="$PROJECT_DIR$/map/urls.py" />
         <option value="$PROJECT_DIR$/map/templates/map/home.html" />
+        <option value="$PROJECT_DIR$/map/views.py" />
+        <option value="$USER_HOME$/Downloads/Compressed/webeasystep-calculate-distance-between-two-points-google-maps-0e41ca60f01e/calculator.html" />
+        <option value="$PROJECT_DIR$/map/templates/map/distance.html" />
+        <option value="$PROJECT_DIR$/map/static/map/js/map.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
+    <option name="x" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
@@ -207,17 +255,102 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onboarding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+              <item name="onboarding" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hello\Desktop\Project\Python\Awesomity\onboarding\map\static\map" />
       <recent name="C:\Users\hello\Downloads\Compressed\Awesomity\onboarding\upload\static\upload" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hello\Desktop\Project\Python\Awesomity\onboarding\accounts\static\register" />
+      <recent name="C:\Users\hello\Desktop\Project\Python\Awesomity\onboarding\map" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,6 +372,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="onboarding.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -269,31 +403,56 @@
       <updated>1563535150622</updated>
       <workItem from="1563535155722" duration="9452000" />
       <workItem from="1563895880442" duration="53000" />
+      <workItem from="1563896301193" duration="2316000" />
+      <workItem from="1563951544247" duration="959000" />
+      <workItem from="1563953532938" duration="2440000" />
+      <workItem from="1563956098288" duration="537000" />
+      <workItem from="1563956709678" duration="3951000" />
+      <workItem from="1563968068100" duration="629000" />
+      <workItem from="1565085573664" duration="232000" />
+      <workItem from="1565174890953" duration="3480000" />
+      <workItem from="1565184295550" duration="4000" />
+      <workItem from="1565186743899" duration="4771000" />
+      <workItem from="1565245034607" duration="27736000" />
+      <workItem from="1565277084575" duration="273000" />
+      <workItem from="1565277382245" duration="12326000" />
+      <workItem from="1565330685376" duration="33416000" />
+      <workItem from="1565676127641" duration="8011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9505000" />
+    <option name="totallyTimeSpent" value="110586000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19054054" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.30202702" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32991204" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32258064" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,37 +466,106 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/maps/apps.py" />
     <entry file="file://$PROJECT_DIR$/maps/tests.py" />
-    <entry file="file://$PROJECT_DIR$/register/templates/register/header.html">
+    <entry file="file://$PROJECT_DIR$/onboarding/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        <state relative-caret-position="295">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/urls.py">
+    <entry file="file://D:/onboarding/accounts/views.py" />
+    <entry file="file://D:/onboarding/accounts/forms.py" />
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/onboarding/accounts/templates/accounts/login.html" />
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="70" column="13" selection-start-line="69" selection-start-column="14" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/onboarding/accounts/templates/accounts/register.html" />
+    <entry file="file://$PROJECT_DIR$/map/static/register/js/map.js" />
+    <entry file="file://$PROJECT_DIR$/accounts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/static/register/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="100" lean-forward="true" selection-end-line="100" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onboarding/urls.py">
+    <entry file="file://$PROJECT_DIR$/map/static/map/css/map.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/forms.py">
+    <entry file="file://$PROJECT_DIR$/upload/templates/upload/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="170">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -349,52 +577,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/templates/upload/home.html">
+    <entry file="file://$PROJECT_DIR$/upload/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/views.py">
+    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/models.py">
+    <entry file="file://$PROJECT_DIR$/map/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/urls.py">
+    <entry file="file://$PROJECT_DIR$/onboarding/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onboarding/settings.py">
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="272">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/views.py">
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/static/map/jquery/jquery-3.4.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/map/templates/map/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        <state relative-caret-position="412">
+          <caret line="32" selection-start-line="15" selection-start-column="4" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/webeasystep-calculate-distance-between-two-points-google-maps-0e41ca60f01e/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="3" column="253" selection-start-line="3" selection-start-column="214" selection-end-line="3" selection-end-column="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/templates/map/distance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/static/map/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
         </state>
       </provider>
     </entry>

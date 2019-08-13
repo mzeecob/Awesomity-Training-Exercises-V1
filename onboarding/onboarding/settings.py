@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'register',
+    'accounts',
     'map',
     'upload',
     'django.contrib.admin',
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-AUTH_USER_MODEL = 'register.Account' # new
+AUTH_USER_MODEL = 'accounts.Account' # new
 
 WSGI_APPLICATION = 'onboarding.wsgi.application'
 
@@ -130,3 +130,6 @@ EMAIL_HOST_USER = 'reshimwe2025@gmail.com'
 EMAIL_HOST_PASSWORD = 'soniau123'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
+MEDIA_URL = '/Images/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'upload/Images')

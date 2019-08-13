@@ -2,15 +2,51 @@
 {% block content %}
 
 {% load staticfiles %}
-	<link rel="stylesheet" href="{% static 'register/css/map.css' %}" type = "text/css"/>
+	<link rel="stylesheet" href="{% static 'map/css/map.css' %}" type = "text/css"/>
+
+    {#    map   #}
+
+<input id="pac-input" class="controls" type="text" placeholder="Search Box"><br>
+<div id="map">
+</div>
+
+{#    coordinates form  #}
 
 
+    <form class="form-horizontal"  method="post">
+    {% csrf_token %}
+    {% for field in form %}
+        <div class="form-group">
+            <label class="control-label col-sm-2">{{ field.label_tag }}</label>
+            <div class="col-sm-10">
+                {{field}}
+            </div>
+        </div>
+    {% endfor %}
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success">save</button>
+        </div>
+    </div>
 
-<input id="pac-input" class="controls" type="text" placeholder="Search Box">
-<div id="map"></div>
+</form>
 
-<script src="https://maps.googleapis.com/maps/api/js?key={}&libraries=places&callback=initAutocomplete"
-         async defer></script>
-<script src="{% static 'register/js/map.js' %}" ></script>
+    {#    select coordinates   #}
+
+     <h1> click on button to go the location</h1>
+
+        {% for coor in location %}
+            <p>Location name: {{ coor.location_name }}</p>
+            <button id="map_coor" onclick="showCoordinates(this)">{{ coor.coordinates }}</button>
+
+        {% endfor %}
+
+    <a href="distance.html"><h1>Distance Matrix</h1></a>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANmJh1vdWpIFtBliefeeKwU-TVIWGQFiY&libraries=drawing,places&callback=initAutocomplete"
+         ></script>
+<script src="{% static 'map/js/map.js' %}" ></script>
 
 {% endblock %}
+

@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
 
-    url('^$', views.index, name='home'),
+    url('^$', views.Index.as_view(), name='index'),
+    url('distance.html', views.distance, name='distance')
 
 ]

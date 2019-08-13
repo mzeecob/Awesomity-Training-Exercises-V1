@@ -1,0 +1,52 @@
+
+{% block content %}
+
+{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'map/css/map.css' %}" type = "text/css"/>
+    <script src="{% static 'map/jquery/jquery-3.4.1.min.js' %}"></script>
+
+    {#    map   #}
+
+<div class="container">
+<div class="row">
+
+<h1>Calculate the Distance Between two Addresses demo</h1>
+</div>
+
+<div class="col-md-6">
+<form id="distance_form">
+<div class="form-group"><label>Origin: </label> <input class="form-control" id="from_places" placeholder="Enter a location" />
+    <input id="origin" name="origin" required="" type="hidden" /></div>
+    <br>
+
+<div class="form-group"><label>Destination: </label> <input class="form-control" id="to_places" placeholder="Enter a location" />
+    <input id="destination" name="destination" required="" type="hidden" /></div>
+    <br>
+<input class="btn btn-primary" id="btn" type="submit" value="Calculate" /></form>
+
+<div id="result">
+
+
+        <label>Distance: </label><input id="distance"> <br> <br>
+        <label>Duration: </label><input id="duration"> <br> <br>
+        <label>Price: </label><input id="price"> <br> <br>
+
+
+
+</div>
+</div>
+</div>
+    </form>
+
+
+    <div id="map">
+    </div>
+
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANmJh1vdWpIFtBliefeeKwU-TVIWGQFiY&libraries=drawing,places&callback=initAutocomplete"
+         ></script>
+<script src="{% static 'map/js/map.js' %}" ></script>
+
+{% endblock %}
+
